@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body style="background: rgb(21, 7, 34); color: aliceblue; font-family: 'Times New Roman', Times, serif;">
+
+    <div>
+        <h1 class="text-[#FF9B17] flex justify-center mt-8 text-3xl">Basic Calculator</h1>
+    </div>
+    <div class="flex justify-center mt-12 pl-2 ">
+        <input id="display" class="border-2 rounded-2xl h-16 bg-[#9d99ff] text-xl text-black" type="text" placeholder="0" readonly>
+    </div>
+    <div class="mt-6 flex justify-center ">
+        <div>
+            <div class="flex justify-between space-x-3">
+                <button id="btn" class="w-12 h-12 bg-[#FF9B17] border-2 rounded-full">AC</button>
+                <button id="btn" class="w-12 h-12 border-2 rounded-full bg-red-500">Back</button>
+                <button id="btn" class="w-12 h-12 border-2 rounded-full bg-teal-800">%</button>
+                <button id="btn" class="w-12 h-12 border-2 rounded-full bg-purple-900">/</button>
+            </div>
+            <div class="flex justify-between mt-3">
+                <button id="btn" class="w-12 h-12 border-2 rounded-full">7</button>
+                <button id="btn" class="w-12 h-12 border-2 rounded-full">8</button>
+                <button id="btn" class="w-12 h-12 border-2 rounded-full">9</button>
+                <button id="btn" class="w-12 h-12 border-2 rounded-full bg-cyan-600">*</button>
+            </div>
+            <div class="flex justify-between mt-3">
+                <button id="btn" class="w-12 h-12 border-2 rounded-full">4</button>
+                <button id="btn" class="w-12 h-12 border-2 rounded-full">5</button>
+                <button id="btn" class="w-12 h-12 border-2 rounded-full">6</button>
+                <button id="btn" class="w-12 h-12 border-2 rounded-full bg-pink-600">-</button>
+            </div>
+            <div class="flex justify-between mt-3">
+                <button id="btn" class="w-12 h-12 border-2 rounded-full">1</button>
+                <button id="btn" class="w-12 h-12 border-2 rounded-full">2</button>
+                <button id="btn" class="w-12 h-12 border-2 rounded-full">3</button>
+                <button id="btn" class="w-12 h-12 border-2 rounded-full bg-fuchsia-700">+</button>
+            </div>
+            <div class="flex justify-between mt-3">
+                <button id="btn" class="w-12 h-12 border-2 rounded-full">😇</button>
+                <button id="btn" class="w-12 h-12 border-2 rounded-full">0</button>
+                <button id="btn" class="w-12 h-12 border-2 rounded-full">.</button>
+                <button type="" id="btn" class="w-12 h-12 border-2 rounded-full bg-green-800 ">=</button>
+            </div>
+        </div>
+    </div>
+    <footer style="background-color: rgb(29, 11, 46); color: rgb(112, 103, 231);" class="mt-[100px] flex justify-center">
+        <h3 class="inline hover:text-fuchsia-500"><a href="http://github.com/">here's the source code</a></h3>
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>
